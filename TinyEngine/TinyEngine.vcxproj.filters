@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{12311de7-5399-4558-baa2-bca76c0605c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Entity">
+      <UniqueIdentifier>{d0d53026-2f55-496a-b448-bf652b744f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Player">
+      <UniqueIdentifier>{6470e457-18a5-4b72-a422-e60380abb00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Bat">
+      <UniqueIdentifier>{3aec96dc-f8e2-4d1e-808f-90a0da2e7974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\World">
+      <UniqueIdentifier>{8a9a6ced-64a8-45b5-a979-1f1ee1c83c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Score">
+      <UniqueIdentifier>{7666ca0b-b9c0-4f1e-93c6-0cbe557a90e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Code\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Code\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>Code\Bat</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Code\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Code\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Troll.cpp">
+      <Filter>Code\Bat</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Code\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Code\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Rain.cpp">
+      <Filter>Code\World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TinyEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Characters.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Code\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Code\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>Code\Bat</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Code\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Code\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="iDamage.h">
+      <Filter>Code\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Code\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Troll.h">
+      <Filter>Code\Bat</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Code\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Rain.h">
+      <Filter>Code\World</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
